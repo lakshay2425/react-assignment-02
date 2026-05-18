@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Focus Clock logo</title>
+  <desc id="desc">Orange stopwatch mark with a green leaf-shaped timer hand.</desc>
+  <rect width="256" height="256" rx="48" fill="#fff6e7"/>
+  <circle cx="128" cy="138" r="76" fill="#ec7c26"/>
+  <circle cx="128" cy="138" r="54" fill="#fffaf1"/>
+  <path d="M102 38h52c8.8 0 16 7.2 16 16v14H86V54c0-8.8 7.2-16 16-16Z" fill="#2f7d4b"/>
+  <path d="M85 68h86c7.7 0 14 6.3 14 14v10H71V82c0-7.7 6.3-14 14-14Z" fill="#205e39"/>
+  <path d="M128 92c8 30.7 24.2 48.7 48 56-25.5 12.4-51.5 5.7-78-20 2.9-17.7 12.9-29.7 30-36Z" fill="#2f7d4b"/>
+  <circle cx="128" cy="138" r="11" fill="#213126"/>
+  <path d="M128 138h43" stroke="#213126" stroke-width="12" stroke-linecap="round"/>
+  <path d="M128 138V99" stroke="#213126" stroke-width="12" stroke-linecap="round"/>
+</svg>

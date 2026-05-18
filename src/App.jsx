@@ -11,7 +11,10 @@ function App({ children }) {
     <main className="app-shell">
       <section className="hero-panel">
         <div className="hero-copy">
-          <span className="eyebrow">Focus clock</span>
+          <div className="brand-lockup" aria-label="Focus Clock">
+            <img src="/logo.svg" alt="" />
+            <span>Focus Clock</span>
+          </div>
           <h1>Stopwatch and Timer</h1>
           <p>
             Track sprints, breaks, and countdowns with calm controls and a

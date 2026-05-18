@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Stopwatch and Timer social preview</title>
+  <desc id="desc">Warm orange and green preview card for the Focus Clock stopwatch and timer app.</desc>
+  <rect width="1200" height="630" fill="#f8f2e8"/>
+  <rect x="72" y="66" width="1056" height="498" rx="28" fill="#fff6e7" stroke="#ead7bc" stroke-width="4"/>
+  <circle cx="936" cy="178" r="142" fill="#dff0d7"/>
+  <circle cx="990" cy="444" r="98" fill="#ffe1b8"/>
+  <g transform="translate(116 134)">
+    <rect width="124" height="124" rx="26" fill="#fffaf1" stroke="#ead7bc" stroke-width="3"/>
+    <circle cx="62" cy="70" r="38" fill="#ec7c26"/>
+    <circle cx="62" cy="70" r="26" fill="#fffaf1"/>
+    <path d="M48 18h28c5 0 9 4 9 9v8H39v-8c0-5 4-9 9-9Z" fill="#2f7d4b"/>
+    <path d="M62 70h22" stroke="#213126" stroke-width="7" stroke-linecap="round"/>
+    <path d="M62 70V48" stroke="#213126" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="62" cy="70" r="6" fill="#213126"/>
+  </g>
+  <text x="116" y="320" fill="#213126" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="88" font-weight="900">Stopwatch and Timer</text>
+  <text x="120" y="394" fill="#5f5a4f" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="600">Track sprints, breaks, and countdowns with calm controls.</text>
+  <g transform="translate(120 452)">
+    <rect width="176" height="54" rx="12" fill="#ec7c26"/>
+    <text x="88" y="36" fill="#fffaf1" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">Start</text>
+    <rect x="196" width="176" height="54" rx="12" fill="#2f7d4b"/>
+    <text x="284" y="36" fill="#fffaf1" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">Pause</text>
+    <rect x="392" width="176" height="54" rx="12" fill="#f4dcc0"/>
+    <text x="480" y="36" fill="#5c3719" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">Reset</text>
+  </g>
+</svg>

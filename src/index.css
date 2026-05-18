@@ -54,7 +54,7 @@ button {
   max-width: 620px;
 }
 
-.eyebrow,
+.brand-lockup,
 .badge {
   display: inline-flex;
   width: fit-content;
@@ -66,11 +66,17 @@ button {
   text-transform: uppercase;
 }
 
-.eyebrow {
+.brand-lockup {
+  gap: 8px;
   margin-bottom: 12px;
-  padding: 8px 12px;
+  padding: 7px 12px 7px 8px;
   color: #205e39;
   background: #dff0d7;
+}
+
+.brand-lockup img {
+  width: 28px;
+  height: 28px;
 }
 
 h1,
