@@ -1,16 +1,70 @@
-# React + Vite
+# Stopwatch and Timer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A polished React application for tracking elapsed time with a stopwatch and running custom countdowns with a timer. The app uses Vite, TanStack Router, modular components, and service hooks for time/state logic.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Stopwatch with start, pause, and reset controls
+- Timer with custom hours, minutes, and seconds input
+- Start, pause, and reset controls for both modes
+- Clear `HH:MM:SS` time display
+- Page-based navigation with TanStack Router
+- Responsive orange and green UI without blue or purple grading
+- Component-focused rendering with business logic kept in `src/services`
 
-## React Compiler
+## Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```text
+src/
+  components/
+    ControlButtons.jsx
+    StatStrip.jsx
+    TimeCard.jsx
+    TimerInput.jsx
+  pages/
+    StopwatchPage.jsx
+    TimerPage.jsx
+  router/
+    router.jsx
+  services/
+    timeUtils.js
+    useStopwatch.js
+    useTimer.js
+  App.jsx
+  index.css
+  main.jsx
+```
 
-## Expanding the ESLint configuration
+## Routes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `/` - Stopwatch page
+- `/timer` - Timer page
+
+## Getting Started
+
+Install dependencies:
+```powershell
+pnpm.cmd install
+```
+
+Start the development server:
+```powershell
+pnpm.cmd vite --host 127.0.0.1 --port 5173
+```
+
+Build for production:
+```powershell
+pnpm.cmd run build
+```
+
+Run lint checks:
+```powershell
+pnpm.cmd run lint
+```
+
+## Tech Stack
+
+- React
+- Vite
+- TanStack Router
+- CSS
